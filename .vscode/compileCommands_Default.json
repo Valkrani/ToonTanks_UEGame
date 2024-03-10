@@ -1,0 +1,234 @@
+[
+    {
+        "file": "E:\\Game Projects\\Udemy Courses\\ToonTanks\\Source\\ToonTanks\\BasePawn.cpp",
+        "arguments": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+            "@E:\\Game Projects\\Udemy Courses\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
+        ],
+        "directory": "E:\\Game Projects\\Game Engines\\UE_5.2\\Engine\\Source"
+    },
+    {
+        "file": "E:\\Game Projects\\Udemy Courses\\ToonTanks\\Source\\ToonTanks\\BasePawn.h",
+        "arguments": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+            "@E:\\Game Projects\\Udemy Courses\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
+        ],
+        "directory": "E:\\Game Projects\\Game Engines\\UE_5.2\\Engine\\Source"
+    },
+    {
+        "file": "E:\\Game Projects\\Udemy Courses\\ToonTanks\\Source\\ToonTanks\\HealthComponent.cpp",
+        "arguments": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+            "@E:\\Game Projects\\Udemy Courses\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
+        ],
+        "directory": "E:\\Game Projects\\Game Engines\\UE_5.2\\Engine\\Source"
+    },
+    {
+        "file": "E:\\Game Projects\\Udemy Courses\\ToonTanks\\Source\\ToonTanks\\HealthComponent.h",
+        "arguments": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+            "@E:\\Game Projects\\Udemy Courses\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
+        ],
+        "directory": "E:\\Game Projects\\Game Engines\\UE_5.2\\Engine\\Source"
+    },
+    {
+        "file": "E:\\Game Projects\\Udemy Courses\\ToonTanks\\Source\\ToonTanks\\PlayerDisplay.cpp",
+        "arguments": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+            "@E:\\Game Projects\\Udemy Courses\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
+        ],
+        "directory": "E:\\Game Projects\\Game Engines\\UE_5.2\\Engine\\Source"
+    },
+    {
+        "file": "E:\\Game Projects\\Udemy Courses\\ToonTanks\\Source\\ToonTanks\\PlayerDisplay.h",
+        "arguments": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+            "@E:\\Game Projects\\Udemy Courses\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
+        ],
+        "directory": "E:\\Game Projects\\Game Engines\\UE_5.2\\Engine\\Source"
+    },
+    {
+        "file": "E:\\Game Projects\\Udemy Courses\\ToonTanks\\Source\\ToonTanks\\PlayerPawn.cpp",
+        "arguments": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+            "@E:\\Game Projects\\Udemy Courses\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
+        ],
+        "directory": "E:\\Game Projects\\Game Engines\\UE_5.2\\Engine\\Source"
+    },
+    {
+        "file": "E:\\Game Projects\\Udemy Courses\\ToonTanks\\Source\\ToonTanks\\PlayerPawn.h",
+        "arguments": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+            "@E:\\Game Projects\\Udemy Courses\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
+        ],
+        "directory": "E:\\Game Projects\\Game Engines\\UE_5.2\\Engine\\Source"
+    },
+    {
+        "file": "E:\\Game Projects\\Udemy Courses\\ToonTanks\\Source\\ToonTanks\\Projectile.cpp",
+        "arguments": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+            "@E:\\Game Projects\\Udemy Courses\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
+        ],
+        "directory": "E:\\Game Projects\\Game Engines\\UE_5.2\\Engine\\Source"
+    },
+    {
+        "file": "E:\\Game Projects\\Udemy Courses\\ToonTanks\\Source\\ToonTanks\\Projectile.h",
+        "arguments": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+            "@E:\\Game Projects\\Udemy Courses\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
+        ],
+        "directory": "E:\\Game Projects\\Game Engines\\UE_5.2\\Engine\\Source"
+    },
+    {
+        "file": "E:\\Game Projects\\Udemy Courses\\ToonTanks\\Source\\ToonTanks\\ToonTanks.Build.cs",
+        "arguments": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+            "@E:\\Game Projects\\Udemy Courses\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
+        ],
+        "directory": "E:\\Game Projects\\Game Engines\\UE_5.2\\Engine\\Source"
+    },
+    {
+        "file": "E:\\Game Projects\\Udemy Courses\\ToonTanks\\Source\\ToonTanks\\ToonTanks.cpp",
+        "arguments": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+            "@E:\\Game Projects\\Udemy Courses\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
+        ],
+        "directory": "E:\\Game Projects\\Game Engines\\UE_5.2\\Engine\\Source"
+    },
+    {
+        "file": "E:\\Game Projects\\Udemy Courses\\ToonTanks\\Source\\ToonTanks\\ToonTanks.h",
+        "arguments": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+            "@E:\\Game Projects\\Udemy Courses\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
+        ],
+        "directory": "E:\\Game Projects\\Game Engines\\UE_5.2\\Engine\\Source"
+    },
+    {
+        "file": "E:\\Game Projects\\Udemy Courses\\ToonTanks\\Source\\ToonTanks\\ToonTanksGameMode.cpp",
+        "arguments": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+            "@E:\\Game Projects\\Udemy Courses\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
+        ],
+        "directory": "E:\\Game Projects\\Game Engines\\UE_5.2\\Engine\\Source"
+    },
+    {
+        "file": "E:\\Game Projects\\Udemy Courses\\ToonTanks\\Source\\ToonTanks\\ToonTanksGameMode.h",
+        "arguments": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+            "@E:\\Game Projects\\Udemy Courses\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
+        ],
+        "directory": "E:\\Game Projects\\Game Engines\\UE_5.2\\Engine\\Source"
+    },
+    {
+        "file": "E:\\Game Projects\\Udemy Courses\\ToonTanks\\Source\\ToonTanks\\ToonTanksPlayerController.cpp",
+        "arguments": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+            "@E:\\Game Projects\\Udemy Courses\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
+        ],
+        "directory": "E:\\Game Projects\\Game Engines\\UE_5.2\\Engine\\Source"
+    },
+    {
+        "file": "E:\\Game Projects\\Udemy Courses\\ToonTanks\\Source\\ToonTanks\\ToonTanksPlayerController.h",
+        "arguments": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+            "@E:\\Game Projects\\Udemy Courses\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
+        ],
+        "directory": "E:\\Game Projects\\Game Engines\\UE_5.2\\Engine\\Source"
+    },
+    {
+        "file": "E:\\Game Projects\\Udemy Courses\\ToonTanks\\Source\\ToonTanks\\TowerPawn.cpp",
+        "arguments": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+            "@E:\\Game Projects\\Udemy Courses\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
+        ],
+        "directory": "E:\\Game Projects\\Game Engines\\UE_5.2\\Engine\\Source"
+    },
+    {
+        "file": "E:\\Game Projects\\Udemy Courses\\ToonTanks\\Source\\ToonTanks\\TowerPawn.h",
+        "arguments": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+            "@E:\\Game Projects\\Udemy Courses\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
+        ],
+        "directory": "E:\\Game Projects\\Game Engines\\UE_5.2\\Engine\\Source"
+    },
+    {
+        "file": "e:\\\\Game Projects\\\\Udemy Courses\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\PlayerTankTypesEnum.h",
+        "directory": "E:\\Game Projects\\Game Engines\\UE_5.2\\Engine\\Source",
+        "arguments": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+            "@E:\\Game Projects\\Udemy Courses\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
+        ]
+    },
+    {
+        "file": "e:\\\\Game Projects\\\\Udemy Courses\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\TowerTypesEnum.h",
+        "directory": "E:\\Game Projects\\Game Engines\\UE_5.2\\Engine\\Source",
+        "arguments": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+            "@E:\\Game Projects\\Udemy Courses\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
+        ]
+    },
+    {
+        "file": "e:\\\\Game Projects\\\\Udemy Courses\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\MyGameInstance.cpp",
+        "directory": "E:\\Game Projects\\Game Engines\\UE_5.2\\Engine\\Source",
+        "arguments": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+            "@E:\\Game Projects\\Udemy Courses\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
+        ]
+    },
+    {
+        "file": "e:\\\\Game Projects\\\\Udemy Courses\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\MyGameInstance.h",
+        "directory": "E:\\Game Projects\\Game Engines\\UE_5.2\\Engine\\Source",
+        "arguments": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+            "@E:\\Game Projects\\Udemy Courses\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
+        ]
+    },
+    {
+        "file": "e:\\\\Game Projects\\\\Udemy Courses\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\MySaveGame.cpp",
+        "directory": "E:\\Game Projects\\Game Engines\\UE_5.2\\Engine\\Source",
+        "arguments": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+            "@E:\\Game Projects\\Udemy Courses\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
+        ]
+    },
+    {
+        "file": "e:\\\\Game Projects\\\\Udemy Courses\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\MySaveGame.h",
+        "directory": "E:\\Game Projects\\Game Engines\\UE_5.2\\Engine\\Source",
+        "arguments": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+            "@E:\\Game Projects\\Udemy Courses\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
+        ]
+    },
+    {
+        "file": "e:\\\\Game Projects\\\\Udemy Courses\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\PlayerCustomization.cpp",
+        "directory": "E:\\Game Projects\\Game Engines\\UE_5.2\\Engine\\Source",
+        "arguments": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+            "@E:\\Game Projects\\Udemy Courses\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
+        ]
+    },
+    {
+        "file": "e:\\\\Game Projects\\\\Udemy Courses\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\PlayerCustomization.h",
+        "directory": "E:\\Game Projects\\Game Engines\\UE_5.2\\Engine\\Source",
+        "arguments": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+            "@E:\\Game Projects\\Udemy Courses\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
+        ]
+    },
+    {
+        "file": "e:\\\\Game Projects\\\\Udemy Courses\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\MySaveGameSystem.cpp",
+        "directory": "E:\\Game Projects\\Game Engines\\UE_5.2\\Engine\\Source",
+        "arguments": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+            "@E:\\Game Projects\\Udemy Courses\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
+        ]
+    },
+    {
+        "file": "e:\\\\Game Projects\\\\Udemy Courses\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\MySaveGameSystem.h",
+        "directory": "E:\\Game Projects\\Game Engines\\UE_5.2\\Engine\\Source",
+        "arguments": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe",
+            "@E:\\Game Projects\\Udemy Courses\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.255.rsp"
+        ]
+    }
+]

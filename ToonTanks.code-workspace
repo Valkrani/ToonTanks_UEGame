@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"name": "ToonTanks",
+			"path": "."
+		},
+		{
+			"name": "UE5",
+			"path": "E:\\Game Projects\\Game Engines\\UE_5.2"
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off",
+		"files.associations": {
+			"random": "cpp"
+		}
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"ms-dotnettools.csharp"
+		]
+	}
+}
