@@ -60,9 +60,7 @@ void AToonTanksGameMode::HandleGameStart()
     Tank = Cast<APlayerPawn>(UGameplayStatics::GetPlayerPawn(this, 0));
     if (IfLevelMainMenu())
     {
-        TSubclassOf<AActor> CameraActorClass = ACameraActor::StaticClass();
-        AActor* MainMenuCameraPosition = UGameplayStatics::GetActorOfClass(GetWorld(), CameraActorClass);
-        ToonTanksPlayerController->SetViewTarget(MainMenuCameraPosition);
+        ToonTanksPlayerController->ChangePlayerCameraMainMenu();
 
         Tank->SetActorHiddenInGame(true);
         Tank->SetActorTickEnabled(false);
