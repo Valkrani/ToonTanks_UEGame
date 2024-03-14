@@ -57,15 +57,15 @@ void APlayerPawn::HandleDestruction()
     bPlayerAlive = false;
 }
 
-// Called to bind functionality to input
-void APlayerPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
-{
-	Super::SetupPlayerInputComponent(PlayerInputComponent);
+// // Called to bind functionality to input
+// void APlayerPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
+// {
+// 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
-    PlayerInputComponent->BindAxis(TEXT("MoveForward"), this, &APlayerPawn::Move);
-    PlayerInputComponent->BindAxis(TEXT("Turn"), this, &APlayerPawn::Turn);
-    PlayerInputComponent->BindAction(TEXT("Fire"), IE_Pressed, this, &APlayerPawn::Fire);
-}
+//     PlayerInputComponent->BindAxis(TEXT("MoveForward"), this, &APlayerPawn::Move);
+//     PlayerInputComponent->BindAxis(TEXT("Turn"), this, &APlayerPawn::Turn);
+//     PlayerInputComponent->BindAction(TEXT("Fire"), IE_Pressed, this, &APlayerPawn::Fire);
+// }
 
 void APlayerPawn::Move(float Input)
 {

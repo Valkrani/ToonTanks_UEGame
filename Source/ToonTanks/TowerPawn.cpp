@@ -2,7 +2,7 @@
 
 
 #include "TowerPawn.h"
-#include "PlayerPawn.h"
+#include "APlayerCharacter.h"
 #include "Kismet/GameplayStatics.h"
 #include "TimerManager.h"
 #include "Projectile.h"
@@ -45,18 +45,18 @@ void ATowerPawn::BeginPlay()
 
     if (TowerType == 2)
     {
-        FireRate = 0.5f;
+        FireRate = 0.7f;
     }
     else if (TowerType == 3)
     {
-        FireRate = 2.f;
+        FireRate = 2.3f;
     }
     else
     {
-        FireRate = 1.f;
+        FireRate = 1.2f;
     }
 
-    PlayerTank = Cast<APlayerPawn>(UGameplayStatics::GetPlayerPawn(this, 0));
+    PlayerTank = Cast<AAPlayerCharacter>(UGameplayStatics::GetPlayerPawn(this, 0));
 
     GetWorldTimerManager().SetTimer(FireRateTimerHandle, this, &ATowerPawn::CheckFireCondition, FireRate, true);
 }

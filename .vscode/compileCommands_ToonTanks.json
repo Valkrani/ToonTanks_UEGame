@@ -214,5 +214,21 @@
             "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe",
             "@E:\\Game Projects\\Udemy Courses\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.255.rsp"
         ]
+    },
+    {
+        "file": "e:\\\\Game Projects\\\\Udemy Courses\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\BaseCharacter.cpp",
+        "directory": "E:\\Game Projects\\Game Engines\\UE_5.2\\Engine\\Source",
+        "arguments": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe",
+            "@E:\\Game Projects\\Udemy Courses\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.255.rsp"
+        ]
+    },
+    {
+        "file": "e:\\\\Game Projects\\\\Udemy Courses\\\\ToonTanks\\\\Source\\\\ToonTanks\\\\BaseCharacter.h",
+        "directory": "E:\\Game Projects\\Game Engines\\UE_5.2\\Engine\\Source",
+        "arguments": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe",
+            "@E:\\Game Projects\\Udemy Courses\\ToonTanks\\.vscode\\compileCommands_ToonTanks\\ToonTanks.255.rsp"
+        ]
     }
 ]

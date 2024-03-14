@@ -24,6 +24,11 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
+	UFUNCTION(BlueprintCallable)
+	void GetHealthPack();
+	UFUNCTION(BlueprintCallable)
+	void GetArmorPack();
+
 	UFUNCTION(BlueprintCallable, Category = "Health")
 	float GetTargetHealth() const { return CurrentHealth; }
 	UFUNCTION(BlueprintCallable, Category = "Health")

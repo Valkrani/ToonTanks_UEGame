@@ -3,7 +3,7 @@
 
 #include "HealthComponent.h"
 #include "Kismet/GameplayStatics.h"
-#include "PlayerPawn.h"
+#include "APlayerCharacter.h"
 #include "TowerPawn.h"
 #include "ToonTanksGameMode.h"
 #include "PlayerDisplay.h"
@@ -25,7 +25,7 @@ bool UHealthComponent::IsArmored()
 	if (GetOwner()->GetInstigatorController()->IsPlayerController())
 	{
 		// check player type if is armor type
-		APlayerPawn* Tank = Cast<APlayerPawn>(UGameplayStatics::GetPlayerPawn(this, 0));
+		AAPlayerCharacter* Tank = Cast<AAPlayerCharacter>(UGameplayStatics::GetPlayerPawn(this, 0));
 		if (Tank)
 		{
 			if (Tank->GetBodyType() == 1)
@@ -54,7 +54,7 @@ bool UHealthComponent::IsAntiArmor(AController* Instigator)
 {
 	if (Instigator)
 	{
-		APlayerPawn* PlayerPawn = Cast<APlayerPawn>(Instigator->GetPawn());
+		AAPlayerCharacter* PlayerPawn = Cast<AAPlayerCharacter>(Instigator->GetPawn());
         ATowerPawn* TowerPawn = Cast<ATowerPawn>(Instigator->GetPawn());
 
         if (PlayerPawn && PlayerPawn->GetTurretType() == 1)
@@ -111,6 +111,28 @@ void UHealthComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActo
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 	// ...
+}
+
+void UHealthComponent::GetHealthPack()
+{
+	CurrentHealth = MaxHealth;
+	
+	SetPlayerDisplayPointer();
+	if (PlayerDisplay)
+	{
+		PlayerDisplay->UpdatePlayerStatsDisplay(CurrentHealth, CurrentArmor);
+	}
+}
+
+void UHealthComponent::GetArmorPack()
+{
+	CurrentArmor = MaxArmor;
+
+	SetPlayerDisplayPointer();
+	if (PlayerDisplay)
+	{
+		PlayerDisplay->UpdatePlayerStatsDisplay(CurrentHealth, CurrentArmor);
+	}
 }
 
 void UHealthComponent::DamageTaken(AActor* DamagedActor, float Damage, const UDamageType* DamageType, AController* Instigator, AActor* DamageCauser)

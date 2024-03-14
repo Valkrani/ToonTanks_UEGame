@@ -3,7 +3,7 @@
 
 #include "ToonTanksGameMode.h"
 #include "Kismet/GameplayStatics.h"
-#include "PlayerPawn.h"
+#include "APlayerCharacter.h"
 #include "TowerPawn.h"
 #include "ToonTanksPlayerController.h"
 #include "MySaveGameSystem.h"
@@ -54,10 +54,15 @@ void AToonTanksGameMode::BeginPlay()
     HandleGameStart();
 }
 
+int AToonTanksGameMode::GetTowersAliveCount()
+{
+    return TowersAlive;
+}
+
 void AToonTanksGameMode::HandleGameStart()
 {
     ToonTanksPlayerController = Cast<AToonTanksPlayerController>(UGameplayStatics::GetPlayerController(this, 0));
-    Tank = Cast<APlayerPawn>(UGameplayStatics::GetPlayerPawn(this, 0));
+    Tank = Cast<AAPlayerCharacter>(UGameplayStatics::GetPlayerPawn(this, 0));
     if (IfLevelMainMenu())
     {
         ToonTanksPlayerController->ChangePlayerCameraMainMenu();

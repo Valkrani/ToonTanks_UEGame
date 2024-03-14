@@ -26,8 +26,11 @@ protected:
 	UFUNCTION(BlueprintImplementableEvent)
 	void GameOver(bool bWonGame);
 
+	UFUNCTION(BlueprintCallable)
+	int GetTowersAliveCount();
+
 private:
-	class APlayerPawn* Tank;
+	class AAPlayerCharacter* Tank;
 	class AToonTanksPlayerController* ToonTanksPlayerController;
 	APlayerController* PlayerController;
 
