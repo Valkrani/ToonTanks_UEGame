@@ -30,7 +30,7 @@ protected:
 	int GetTowersAliveCount();
 
 private:
-	class AAPlayerCharacter* Tank;
+	class APlayerPawn* Tank;
 	class AToonTanksPlayerController* ToonTanksPlayerController;
 	APlayerController* PlayerController;
 

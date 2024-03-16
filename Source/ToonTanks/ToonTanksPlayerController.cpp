@@ -5,6 +5,7 @@
 #include "Kismet/GameplayStatics.h"
 #include "GameFramework/Pawn.h"
 #include "Camera/CameraActor.h"
+#include "Blueprint/UserWidget.h"
 
 AToonTanksPlayerController::AToonTanksPlayerController()
 {
@@ -27,9 +28,9 @@ void AToonTanksPlayerController::SetPlayerEnabledState(bool bPlayerEnabled)
 
 void AToonTanksPlayerController::ChangePlayerCameraMainMenu()
 {
-        SetViewTargetWithBlend(CameraPositions[0], 0.4f);
+    SetViewTargetWithBlend(CameraPositions[0], 0.4f);
 }
 void AToonTanksPlayerController::ChangePlayerCameraCustomize()
 {
-        SetViewTargetWithBlend(CameraPositions[1], 0.4f);
+    SetViewTargetWithBlend(CameraPositions[1], 0.4f);
 }

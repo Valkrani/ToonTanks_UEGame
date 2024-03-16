@@ -17,7 +17,7 @@ void APlayerPawn::BeginPlay()
     
     if (TurretType == 1)
     {
-        FireRate = 2.f;
+        FireRate = 1.5f;
     }
     else if (TurretType == 2)
     {
@@ -27,7 +27,6 @@ void APlayerPawn::BeginPlay()
     {
         FireRate = 1.f;
     }
-
 }
 
 // Sets default values
@@ -57,22 +56,22 @@ void APlayerPawn::HandleDestruction()
     bPlayerAlive = false;
 }
 
-// // Called to bind functionality to input
-// void APlayerPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
-// {
-// 	Super::SetupPlayerInputComponent(PlayerInputComponent);
+// Called to bind functionality to input
+void APlayerPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
+{
+	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
-//     PlayerInputComponent->BindAxis(TEXT("MoveForward"), this, &APlayerPawn::Move);
-//     PlayerInputComponent->BindAxis(TEXT("Turn"), this, &APlayerPawn::Turn);
-//     PlayerInputComponent->BindAction(TEXT("Fire"), IE_Pressed, this, &APlayerPawn::Fire);
-// }
+    PlayerInputComponent->BindAxis(TEXT("MoveForward"), this, &APlayerPawn::Move);
+    PlayerInputComponent->BindAxis(TEXT("Turn"), this, &APlayerPawn::Turn);
+    PlayerInputComponent->BindAction(TEXT("Fire"), IE_Pressed, this, &APlayerPawn::Fire);
+}
 
 void APlayerPawn::Move(float Input)
 {
     float DeltaTime = UGameplayStatics::GetWorldDeltaSeconds(this);
     FVector DeltaLocation(0.f);
     DeltaLocation.X = (Input * Speed) * DeltaTime;
-    AddActorLocalOffset(DeltaLocation, true);
+    AddActorLocalOffset(DeltaLocation);
 }
 
 void APlayerPawn::Turn(float Input)

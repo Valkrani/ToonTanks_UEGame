@@ -23,6 +23,8 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Player Camera Controls")
 	void ChangePlayerCameraCustomize();
 
+	void PlayerPauseGame();
+
 private:
 	TArray<AActor*> CameraPositions;
 };

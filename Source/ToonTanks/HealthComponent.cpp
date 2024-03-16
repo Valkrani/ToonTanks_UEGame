@@ -3,7 +3,7 @@
 
 #include "HealthComponent.h"
 #include "Kismet/GameplayStatics.h"
-#include "APlayerCharacter.h"
+#include "PlayerPawn.h"
 #include "TowerPawn.h"
 #include "ToonTanksGameMode.h"
 #include "PlayerDisplay.h"
@@ -25,7 +25,7 @@ bool UHealthComponent::IsArmored()
 	if (GetOwner()->GetInstigatorController()->IsPlayerController())
 	{
 		// check player type if is armor type
-		AAPlayerCharacter* Tank = Cast<AAPlayerCharacter>(UGameplayStatics::GetPlayerPawn(this, 0));
+		APlayerPawn* Tank = Cast<APlayerPawn>(UGameplayStatics::GetPlayerPawn(this, 0));
 		if (Tank)
 		{
 			if (Tank->GetBodyType() == 1)
@@ -54,7 +54,7 @@ bool UHealthComponent::IsAntiArmor(AController* Instigator)
 {
 	if (Instigator)
 	{
-		AAPlayerCharacter* PlayerPawn = Cast<AAPlayerCharacter>(Instigator->GetPawn());
+		APlayerPawn* PlayerPawn = Cast<APlayerPawn>(Instigator->GetPawn());
         ATowerPawn* TowerPawn = Cast<ATowerPawn>(Instigator->GetPawn());
 
         if (PlayerPawn && PlayerPawn->GetTurretType() == 1)

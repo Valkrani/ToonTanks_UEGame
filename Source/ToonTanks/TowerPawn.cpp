@@ -2,7 +2,7 @@
 
 
 #include "TowerPawn.h"
-#include "APlayerCharacter.h"
+#include "PlayerPawn.h"
 #include "Kismet/GameplayStatics.h"
 #include "TimerManager.h"
 #include "Projectile.h"
@@ -56,7 +56,7 @@ void ATowerPawn::BeginPlay()
         FireRate = 1.2f;
     }
 
-    PlayerTank = Cast<AAPlayerCharacter>(UGameplayStatics::GetPlayerPawn(this, 0));
+    PlayerTank = Cast<APlayerPawn>(UGameplayStatics::GetPlayerPawn(this, 0));
 
     GetWorldTimerManager().SetTimer(FireRateTimerHandle, this, &ATowerPawn::CheckFireCondition, FireRate, true);
 }

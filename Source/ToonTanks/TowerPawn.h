@@ -28,7 +28,7 @@ protected:
 	virtual void BeginPlay() override;
 
 private:
-	class AAPlayerCharacter* PlayerTank;
+	class APlayerPawn* PlayerTank;
 
 	bool IsPlayerInRange() const;
 

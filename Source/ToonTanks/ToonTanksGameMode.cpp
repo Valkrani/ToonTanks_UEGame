@@ -3,7 +3,7 @@
 
 #include "ToonTanksGameMode.h"
 #include "Kismet/GameplayStatics.h"
-#include "APlayerCharacter.h"
+#include "PlayerPawn.h"
 #include "TowerPawn.h"
 #include "ToonTanksPlayerController.h"
 #include "MySaveGameSystem.h"
@@ -62,16 +62,23 @@ int AToonTanksGameMode::GetTowersAliveCount()
 void AToonTanksGameMode::HandleGameStart()
 {
     ToonTanksPlayerController = Cast<AToonTanksPlayerController>(UGameplayStatics::GetPlayerController(this, 0));
-    Tank = Cast<AAPlayerCharacter>(UGameplayStatics::GetPlayerPawn(this, 0));
+    Tank = Cast<APlayerPawn>(UGameplayStatics::GetPlayerPawn(this, 0));
+
+    if (!ToonTanksPlayerController || !Tank)
+    {
+        UE_LOG(LogTemp, Warning, TEXT("Player controller or Player Character is empty!"));
+        return;
+    }
+
     if (IfLevelMainMenu())
     {
         ToonTanksPlayerController->ChangePlayerCameraMainMenu();
 
-        Tank->SetActorHiddenInGame(true);
-        Tank->SetActorTickEnabled(false);
-        ToonTanksPlayerController->SetPlayerEnabledState(false);
-        StartGame(true);
-        return;
+            Tank->SetActorHiddenInGame(true);
+            Tank->SetActorTickEnabled(false);
+            ToonTanksPlayerController->SetPlayerEnabledState(false);
+            StartGame(true);
+            return;
     }
     TowersAlive = CountTowersAlive();
 
@@ -82,22 +89,19 @@ void AToonTanksGameMode::HandleGameStart()
 
     StartGame(false);
 
-    if (ToonTanksPlayerController)
-    {
-        ToonTanksPlayerController->SetPlayerEnabledState(false);
+    ToonTanksPlayerController->SetPlayerEnabledState(false);
 
-        FTimerHandle StartTimerHandle;
-        FTimerDelegate StartTimerDelegate = FTimerDelegate::CreateUObject(
-            ToonTanksPlayerController,
-            &AToonTanksPlayerController::SetPlayerEnabledState,
-            true);
-        GetWorldTimerManager().SetTimer(
-            StartTimerHandle,
-            StartTimerDelegate,
-            StartDelay,
-            false
-        );
-    }
+    FTimerHandle StartTimerHandle;
+    FTimerDelegate StartTimerDelegate = FTimerDelegate::CreateUObject(
+        ToonTanksPlayerController,
+        &AToonTanksPlayerController::SetPlayerEnabledState,
+        true);
+    GetWorldTimerManager().SetTimer(
+        StartTimerHandle,
+        StartTimerDelegate,
+        StartDelay,
+        false
+    );
 }
 
 int AToonTanksGameMode::CountTowersAlive()
