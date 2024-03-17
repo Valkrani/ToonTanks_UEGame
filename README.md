@@ -3,7 +3,7 @@ with the help of Udemy course "Unreal Engine 5 C++ Developer: Learn C++ & Make V
 
 ## Assets used:
 - Low Poly Town by PolyArt3D (got for free)
-- GameDev.tv Course ToonTanks (base tank and base turret models, the variants ive modified myself)
+- base tank and base turret models, the variants ive modified myself. Rrovided by the GameDev.tv Course 
 
 ## Contents:
 It has a simple main menu with 3 different turret types and 2 body types.
