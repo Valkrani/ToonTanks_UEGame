@@ -1,6 +1,8 @@
 # Toon Tanks Game
 with the help of Udemy course "Unreal Engine 5 C++ Developer: Learn C++ & Make Video Games" by GameDev.tv
 
+Once i completed the course i was interested in expanding it, a bit.
+
 ## Assets used:
 - Low Poly Town by PolyArt3D (got for free)
 - base tank and base turret models, the variants ive modified myself. Rrovided by the GameDev.tv Course 
