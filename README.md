@@ -3,6 +3,16 @@ with the help of Udemy course "Unreal Engine 5 C++ Developer: Learn C++ & Make V
 
 Once i completed the course i was interested in expanding it, a bit.
 
+## Controls:
+W and S - forward and backwards
+
+A and D - turn
+
+left click - shoot
+
+
+There are medpacks around the so that you can heal. Some even give armor!
+
 ## Assets used:
 - Low Poly Town by PolyArt3D (got for free)
 - base tank and base turret models, the variants ive modified myself. Rrovided by the GameDev.tv Course 
